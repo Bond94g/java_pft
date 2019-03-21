@@ -86,10 +86,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="194">
+              <caret line="61" column="53" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1304#1305#0" expanded="true" />
+                <element signature="e#1363#1364#0" expanded="true" />
+                <element signature="e#1336#1337#0" expanded="true" />
+                <element signature="e#1387#1388#0" expanded="true" />
+                <element signature="e#1960#1961#0" expanded="true" />
+                <element signature="e#2008#2009#0" expanded="true" />
+                <element signature="e#1977#1978#0" expanded="true" />
+                <element signature="e#2032#2033#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -219,7 +227,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553191129509" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553192599146" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../addressbook-web-tests/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -327,9 +336,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SquareTests - 2019.03.18 at 21h 34m 07s.xml">
-      <configuration name="SquareTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PointTests_testPoint - 2019.03.19 at 19h 24m 48s.xml">
       <configuration name="PointTests.testPoint" configurationId="TestNG" />
     </history-entry>
@@ -355,6 +361,9 @@
       <configuration name="GroupCreationTests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GroupCreationTests - 2019.03.21 at 20h 45m 45s.xml">
+      <configuration name="GroupCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests - 2019.03.21 at 20h 58m 54s.xml">
       <configuration name="GroupCreationTests" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -467,10 +476,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="194">
+          <caret line="61" column="53" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
+            <element signature="e#2008#2009#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
           </folding>
         </state>
       </provider>
