@@ -1,4 +1,5 @@
 package ru.stqa.pft.addressbook.appmanager;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -22,11 +23,11 @@ public class ApplicationManager {
   public void initt() {
 
 
-    if (browser == BrowserType.CHROME) {
+    if (browser.equals(BrowserType.CHROME)) {
       wd = new ChromeDriver();
-    } else if (browser == BrowserType.FIREFOX) {
+    } else if (browser.equals(BrowserType.FIREFOX)) {
       wd = new FirefoxDriver();
-    } else if (browser == BrowserType.IE) {
+    } else if (browser.equals(BrowserType.IE)) {
       wd = new InternetExplorerDriver();
     }
 
@@ -39,11 +40,9 @@ public class ApplicationManager {
   }
 
 
-
   public void stop() {
     wd.quit();
   }
-
 
 
   public GroupsHelper getGroupsHelper() {

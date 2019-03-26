@@ -12,7 +12,7 @@ public class GroupCreationTests extends TestBase {
   public void testGroupCreation() throws Exception {
     app.getNavigationHelper().gotoGroupPage();
     app.getGroupsHelper().initGroupCreatin();
-    app.getGroupsHelper().fillGroupForm(new GroupData("test1", "test2", "test3"));
+    app.getGroupsHelper().fillGroupForm(new GroupData("test1", null, null));
     app.getGroupsHelper().submitGroupCreation();
     app.getGroupsHelper().returnToGroupPage();
     //wd.findElement(By.linkText("Logout")).click();
