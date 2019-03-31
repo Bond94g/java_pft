@@ -23,7 +23,7 @@ public class ContactCreationTests {
     login("admin", "secret");
   }
 
-  @Test
+  @Test(enabled = false)
   public void testContactCreationTests() throws Exception {
 
 
